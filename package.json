@@ -1,0 +1,46 @@
+{
+  "name": "url-pdf",
+  "version": "1.0.0",
+  "description": "This is a simple code for converting array of images to pdf(image urls,image dir,image paths)",
+  "main": "App.js",
+  "funding": "https://alestor123.is-a.dev/donate",
+  "scripts": {
+    "test": "standard && node test.js | tap-spec",
+    "example": "node run.js",
+    "lint": "standard . --fix"
+  },	
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "App.js",
+    "cli.js",
+    "assets/man/help.man"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alestor123/URL-PDF.git"
+  },
+  "author": "Alestor Aldous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alestor123/URL-PDF/issues"
+  },
+  "homepage": "https://github.com/alestor123/URL-PDF#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "figlet": "^1.5.2",
+    "image-size": "^1.0.1",
+    "log-update": "^5.0.1",
+    "minimist": "^1.2.6",
+    "pdfkit": "^0.13.0"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3",
+    "tap": "^15.0.9",
+    "tap-spec": "^5.0.0"
+  }
+}
