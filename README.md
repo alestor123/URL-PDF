@@ -26,7 +26,7 @@ urlPDF(['https://timeandtidewatches.com/wp-content/uploads/2020/12/Mission-Impos
 
 ## Quick use
 ```
-$ npx  -s <path>
+$ npx url-pdf -o <path> <input image paths>
 ```
 ## CLI Installation
 ```

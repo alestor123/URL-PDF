@@ -29,7 +29,7 @@ module.exports = async (arr, outpath) => {
   }
   doc.pipe(createWriteStream(resolve(outpath))) // writing tp output path
   doc.end()
-  sync(tmpdir) // removing tmp dir 
+  sync(tmpdir) // removing tmp dir
 }
 
 function isURL (string) {
