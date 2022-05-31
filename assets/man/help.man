@@ -1,0 +1,12 @@
+
+        Usage: url-pdf <input path(files,directories,urls)> <output path (default path ./ or current working directory)>
+
+> by default pdf file will be saved in the current directory  
+
+Arguments : 
+
+-v, --version            get current version
+-h, --help               give this help list
+-i, --issue              give the url to issue page
+-d, --documentation      give the url to documentation page
+-o, --output             set output path
